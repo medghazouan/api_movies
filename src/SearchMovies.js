@@ -20,9 +20,7 @@ const SearchMovies = ({rech}) => {
                 })
                 .catch((err)=>(seterr('Erreur réseau. Veuillez réessayer plus tard'))
                 )
-            }
-           
-            
+            }  
         },1000)
     
   }, [etat]);
