@@ -1,0 +1,40 @@
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: stretch;
+    background-color: white;
+}
+.box{
+    width: auto;
+    margin: 10px;
+    color: orange;
+}
+.header{
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+.logo{
+    width: 80px;
+    height: 50px;
+    display: inline;
+}
+.list{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+.list li{
+    padding: 10px;
+}
+li button{
+    background-color: black;
+    border: none;
+    padding: 5px;
+    margin: 0;
+}
+li button:hover{
+    color: rgb(255, 249, 249);
+    font-weight: bold;
+}
